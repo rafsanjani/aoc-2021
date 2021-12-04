@@ -1,3 +1,7 @@
+package day02
+
+import readInput
+
 fun main() {
     fun part1(input: List<String>): Int {
         var horizontalPosition = 0
@@ -53,11 +57,11 @@ fun main() {
     }
 
 
-    check(part1(readInput("Day02")) == 1480518)
-    check(part1(readInput("Day02_Test")) == 150)
+    check(part1(readInput("day02/Day02")) == 1480518)
+    check(part1(readInput("day02/Day02_Test")) == 150)
 
-    check(part2(readInput("Day02")) == 1282809906)
-    check(part2(readInput("Day02_Test")) == 900)
+    check(part2(readInput("day02/Day02")) == 1282809906)
+    check(part2(readInput("day02/Day02_Test")) == 900)
 }
 
 data class Movement(
